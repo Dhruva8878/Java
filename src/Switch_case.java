@@ -2,7 +2,7 @@ public class Switch_case {
 
     public static void main(String[] args) {
 
-        String city="Mumbai";
+        String city="Pune";
 
         switch (city){
             case "Mumbai" :
