@@ -1,0 +1,14 @@
+
+Super-:  The super keyword in Java is a reference variable that is used to refer to immediate
+         parent class object.
+         Whenever you create the instance of a subclass, an instance of parent class is created
+         implicitly which is referred by the super reference variable.
+
+
+this:- The this keyword can be used to refer current class instance variable. If there is
+       ambiguity between the instance variables and parameters, this keyword resolves the
+        problem of ambiguity.
+        
+Multiple Inheritance:-To reduce the complexity and simplify the language, multiple inheritance is not
+                      supported in java.
+        
