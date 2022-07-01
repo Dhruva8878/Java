@@ -1,9 +1,11 @@
+package src;
+
 public class Bean {
 
-    int roll;
-    String name;
-    int age;
-    int marks;
+   private int roll;
+   private String name;
+   private int age;
+   private int marks;
 
     void printDetails(int roll,String name,int age,int marks){
         this.roll=roll;

@@ -1,25 +1,27 @@
 package src;
 
-public class Demo1 {
+public class Demo {
 
-     void Demo(){
+    Demo(){
+      this("Dhruv");
          System.out.println("Nothing");
     }
-     void Demo(String s){
+    Demo(String s){
+       this(10);
          System.out.println("Inside String"+" "+s);
     }
-     void Demo(int i){
-         System.out.println("inside Integer"+" "+i);
+    Demo(int i){
+         this(10.5f);
+        System.out.println("inside Integer"+" "+i);
     }
-     void Demo(Float f){
+    Demo(Float f) {
          System.out.println("inside Float"+" "+f);
     }
 
     public static void main(String[] args) {
-        Demo1 d1=new Demo1();
-        d1.Demo();
-        d1.Demo("Dhruv");
-        d1.Demo(10);
-        d1.Demo(10.10f);
+        Demo d=new Demo();
+
+
+
     }
 }
