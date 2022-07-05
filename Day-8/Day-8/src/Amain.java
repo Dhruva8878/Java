@@ -2,16 +2,18 @@ public class Amain {
 
     public static void main(String[] args) {
 
-        Dog d=new Dog();
-        Cat c=new Cat();
-        Tiger t=new Tiger();
+        Animal [] animal= new Animal[3];
 
+        animal[0]=new Dog();
+        animal[1]=new Cat();
+        animal[2]=new Tiger();
 
-
-        Object [] animals={d,c,t};
-
-        for(int i=0; i< animals.length; i++){
-
+        for(int i=0; i< animal.length; i++){
+            animal[i].eat();
+            animal[i].makeNoise();
+            animal[i].walk();
+            System.out.println("===========");
         }
+
     }
 }
