@@ -11,7 +11,7 @@ public class Amain {
         Object [] animals={d,c,t};
 
         for(int i=0; i< animals.length; i++){
-            System.out.println(animals[i]);
+
         }
     }
 }
