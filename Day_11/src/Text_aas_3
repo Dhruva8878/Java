@@ -1,0 +1,15 @@
+Abstract Class :-
+
+The abstract classes are also known as partially implemented method because some of
+methods doesn't have their bodies. To define a abstract class we have to use a keyword
+(Abstract)  and if any normal class want to extend the abstract class it has to
+overright the unimplemented methods of abstract class.
+
+
+Interface Class:-
+
+Basically Interface can also known as fully unimplemented method but with the help new (1.8 version)
+we can also include some of the implement methods in our interface. to extend a interface we use a
+keyword known as implements. and also we have overight the method of the interface class.
+
+
