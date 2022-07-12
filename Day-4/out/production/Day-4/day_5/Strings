@@ -1,0 +1,17 @@
+
+
+In Java, strings are immutable. This means, once we create a string, we cannot
+change that string.
+
+Strings are immutable if we compare two Immutable with same value they give us true because it overrides
+the value the we declare previous but when we use StringBuilder they create new space for every String that
+we declare if it is same but it  always create new space for every element.
+
+
+1. int length(): Returns the number of characters in the String
+2. Char charAt(int i): Returns the character at ith index.
+3. String concat( String str): Concatenates specified string to the end of this string
+4. int indexOf (String s, int i): Returns the index within the string of the first
+occurrence of the specified string, starting at the specified index.
+5. String toUpperCase(): Converts all the characters in the String to upper case.
+

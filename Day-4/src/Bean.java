@@ -7,19 +7,38 @@ public class Bean {
    private int age;
    private int marks;
 
-    void printDetails(int roll,String name,int age,int marks){
-        this.roll=roll;
-        this.name=name;
-        this.age=age;
-        this.marks=marks;
+    Bean(){
+        this.name="Ram";
+        this.roll=12;
+        this.age=20;
+        this.marks=400;
+        System.out.println(this.name);
+        System.out.println(this.roll);
+        System.out.println(this.age);
+        System.out.println(this.marks);
+        System.out.println("=============");
+    }
+    Bean(int roll,String name, int age, int marks){
+
+        if(age>18 & age<60 & marks>0 & marks<500){
+            this.name=name;
+            this.roll=roll;
+            this.age=age;
+            this.marks=marks;
+            System.out.println(this.name);
+            System.out.println(this.roll);
+            System.out.println(this.age);
+            System.out.println(this.marks);
+        }
+        else{
+            System.out.println("Please Enter Valid Details");
+        }
+
     }
 
-
     public static void main(String[] args) {
-        Bean s1=new Bean();
-        Bean s2=new Bean();
-
-        s1.printDetails(1,"Dhruv",19,300);
+        Bean b1=new Bean();
+        Bean b=new Bean(1,"Dhruv",19,450);
 
 
     }
