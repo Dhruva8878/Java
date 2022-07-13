@@ -2,13 +2,13 @@ package ass_1;
 
 public interface Y {
 
-    abstract void fun1();
+    abstract void y1();
 
-    default void fun2(){
-        System.out.println("func of Y");
+    default void y2(){
+        System.out.println("Inside y2 of Y");
     }
 
-    static void func3() {
-        System.out.println("Inside fun3 of Y");
+    static void y3() {
+        System.out.println("Inside y3 of Y");
     };
 }

@@ -2,15 +2,6 @@ package ass_1;
 
 public interface Z extends X , Y{
 
-    abstract void fun();
+    abstract void z1();
 
-    @Override
-    default void fun1() {
-
-    }
-
-    @Override
-    default void fun2() {
-        
-    }
 }
