@@ -1,0 +1,8 @@
+
+
+
+Dynamic binding is not a type of polymorphism; rather dynamic binding is
+how polymorphism is implemented or how it works. And dynamic binding and
+runtime binding are the same thing. Dynamic Binding is the more academic
+or computer science based name for it. And "run time binding" is a more
+every day term for it.
