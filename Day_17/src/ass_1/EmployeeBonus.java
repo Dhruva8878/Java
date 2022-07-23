@@ -36,8 +36,7 @@ public class EmployeeBonus {
             }
         }
         catch (InvalidAgeException iae){
-            iae.getMessage();
-            System.out.println("Age should not be in the future");
+            System.out.println( iae.getMessage());
         }
         catch (DateTimeException dte){
             System.out.println("Please pass the date in the correct format");
