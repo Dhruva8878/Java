@@ -1,16 +1,13 @@
 package ass_1;
 
-import java.util.Scanner;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Main {
 
 
     public static void main(String[] args) {
 
-        TreeSet<Product> p1=new TreeSet<>(new AccToPrice());
-        TreeSet<Product> p2=new TreeSet<>(new AccToName());
-        TreeSet<Product> p3=new TreeSet<>(new AccToId());
+        List<Product> list=new ArrayList<>();
 
         for(int i=0; i<2; i++){
             Scanner sc=new Scanner(System.in);
@@ -25,9 +22,7 @@ public class Main {
             double price= sc.nextDouble();
 
             Product p=new Product(id,name,price);
-            p1.add(p);
-            p2.add(p);
-            p3.add(p);
+            list.add(p);
         }
 
         Scanner sc2=new Scanner(System.in);
@@ -39,13 +34,16 @@ public class Main {
         int sort= sc2.nextInt();
 
         if(sort==1){
-            System.out.println(p1);
+            Collections.sort(list,new AccToPrice());
+            System.out.println(list);
         }
         else if (sort==2) {
-            System.out.println(p2);
+           Collections.sort(list,new AccToName());
+            System.out.println(list);
         }
         else {
-            System.out.println(p3);
+            Collections.sort(list,new AccToId());
+            System.out.println(list);
         }
 
 
